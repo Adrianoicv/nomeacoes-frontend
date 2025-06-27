@@ -4,7 +4,7 @@ export default function Arbitros() {
   const [arbitros, setArbitros] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5260/api/Arbitros') // atualiza para o teu endpoint real
+    fetch('https://apirest-dygyf4b5bcg8bud6.spaincentral-01.azurewebsites.net/api/Arbitros') // API do Azure
       .then(res => res.json())
       .then(data => setArbitros(data))
       .catch(err => console.error('Erro ao buscar árbitros:', err));
