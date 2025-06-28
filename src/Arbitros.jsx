@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+/*import { useEffect, useState } from 'react';
 
 export default function Arbitros() {
   const [arbitros, setArbitros] = useState([]);
@@ -20,4 +20,4 @@ export default function Arbitros() {
       </ul>
     </div>
   );
-}
+}*/
