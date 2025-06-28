@@ -6,7 +6,7 @@ export default function Matches() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    axios.get('https://apirest-dygyf4b5bcg8bud6.spaincentral-01.azurewebsites.net/api/jogos')
+    axios.get('https://apirest-dygyf4b5bcg8bud6.spaincentral-01.azurewebsites.net/api/Jogos')
       .then(res => setJogos(res.data))
       .catch(err => console.error('Erro ao buscar jogos:', err));
   }, []);
