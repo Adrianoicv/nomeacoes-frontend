@@ -1,4 +1,4 @@
-/*import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 export default function Matches() {
@@ -6,7 +6,7 @@ export default function Matches() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    axios.get('https://apirest-dygyf4b5bcg8bud6.spaincentral-01.azurewebsites.net/api/Jogos')
+    axios.get('xD') //https://apirest-dygyf4b5bcg8bud6.spaincentral-01.azurewebsites.net/api/Jogos
       .then(res => setJogos(res.data))
       .catch(err => console.error('Erro ao buscar jogos:', err));
   }, []);
@@ -66,4 +66,3 @@ export default function Matches() {
     </div>
   );
 }
-*/
