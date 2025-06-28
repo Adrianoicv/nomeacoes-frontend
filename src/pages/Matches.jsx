@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+/*import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 export default function Matches() {
@@ -66,3 +66,4 @@ export default function Matches() {
     </div>
   );
 }
+*/
